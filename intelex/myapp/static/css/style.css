@@ -1,0 +1,202 @@
+body {
+    background-color: #25929B;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: #ffffff;
+}
+
+
+
+
+/* navbar */
+
+header {
+    background-color: #115458;
+    box-shadow: 5px 50px 80px #056e77;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    margin-left: 10px;
+
+}
+img.logo{
+    width: 5%;
+    margin-left: 40px;
+ 
+   
+}
+
+.navbar-brand:hover {
+    color: #25929B
+}
+
+.navbar {
+    background-color: #115458 !important;
+
+
+}
+
+
+.nav-link {
+    color: #d6f25f !important;
+    margin-right: 25px;
+}
+
+.nav-link:hover {
+    color: #25929B !important;
+}
+
+.phone a {
+    color: #d6f25f;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-right: -300px;
+
+}
+
+.phone a:hover {
+    color: #25929B;
+}
+
+/* Hero Section*/
+
+.hero{
+    height: 566px;
+}
+
+.hero-intro {
+    margin-top: 150px;
+    margin-left: 125px;
+    width: 65%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+
+}
+
+.text-lightgreen {
+    color: #d6f25f;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+.img-size{
+    width: 25%;
+    height: 60%;
+    box-shadow: 10px 10px 24px rgb(61, 60, 60);
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.image-1{
+    position: relative;
+    top: 265.5px;
+    left: 75px;
+}
+.image-2{
+   bottom: 50px;
+}
+.image-3{
+  position: relative;
+  margin-left: 5px;
+  top: 320px;
+  right: 200px;
+}
+.image-4{
+    position: relative;
+    top: -415px;
+    left: 500px;
+    z-index: -200;
+  }
+  
+
+/* Introduction */
+
+.introduction{
+    background-color: #ffffff;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 130px;
+   
+}
+.introduction h3{
+    color: rgb(117, 114, 114);
+    padding: 50px;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+
+/* Product Section */
+#project{
+    margin-bottom: 100px;
+}
+.project-box{
+    text-align: center;
+    
+}
+.project-box img{
+    margin-bottom: 10px;
+    width: 250px;
+    height: 250px;
+}
+/*** Service Section ***/
+
+#service{
+    text-align: center;
+    height: 500px;
+    background-color: #ffffff;
+    }
+
+.service-box{
+    line-height: 1.5;
+    width: 700px;
+    margin: 0 auto;
+    
+}
+
+.service-box h2{
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service-box p{
+    color: #000;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+
+
+/*** Footer ***/
+
+footer{
+  text-align: center;
+  height: 100px;
+}
+footer p{
+    margin-top: 50px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 100px;
+}
